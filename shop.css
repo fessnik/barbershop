@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    background-image: url(img/shop/bg-light.png);
+    background-position: top center;
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+.visually-hidden {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color:#ffffff;
+    background-color:#000000;
+}
+.site-navigation,
+.user-navigation {
+    list-style:none;
+}
+.site-navigation a,
+.user-navigation a {
+    color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    background-color: #242424; 
+}
+.care-products-title {
+    font-size: 30px;
+    line-height: 42px;
+}
+.page-navigation-list {
+    list-style: url(img/shop/list-style.png);
+    line-height: 20px;
+}
+.page-navigation-list a { 
+    color: #000000;
+}
+.page-navigation-list a:hover,
+.page-navigation-list a:focus {
+    color: #aba9a7;
+}
+.producers {
+    border: none;
+}
+.producers legend {
+    font-size: 24px;
+    line-height: 30px;
+}
+.products-group {
+    border: none;
+}
+.products-group legend {
+    font-size: 24px;
+    line-height: 30px;
+}
+.catalog-product {
+    background-image: url(img/shop/catalog-items-bg.png);
+    background-repeat: no-repeat no-repeat;
+}
+.catalog a {
+    line-height: 18px;
+    color: #000000;
+}
+.catalog-price {
+    background-image: url(img/shop/button-bg-light.png);
+}
+.catalog-button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+.list-button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+
+.main-footer {
+    color: #ffffff;
+
+    background-color: #212121;
+    background-image: url(img/price/bg-dark.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-contacts a :hover,
+.footer-contacts a :focus {
+    text-decoration: none;
+}
+.footer-social {
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
+.social-button {
+    color: #ffffff;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+    color: #000000;
+    background-color: #ffffff;
+}

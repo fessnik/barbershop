@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    background-image: url(img/price/bg-light.png);
+    background-position: top center;
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color:#ffffff;
+    background-color:#000000;
+}
+.site-navigation,
+.user-navigation {
+    list-style:none;
+}
+.site-navigation a,
+.user-navigation a {
+    color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    background-color: #242424;
+}
+.page-navigation h1 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.navigation-list {
+    list-style: url(img/item/list-style.png);
+}
+.navigation-list a {
+    color: black;
+}
+.slogan {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.care-products h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.care-products-list {
+    list-style: url(img/price/list-style.png);
+}
+.price h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.price-table {
+    border-collapse: collapse;
+}
+.price-table td,
+.price-table tr{
+    border: 2px solid #000101;
+    width: 231px;
+}
+.price-table td:last-child {
+    text-align: center;
+}
+.features h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.main-footer {
+    color: #ffffff;
+
+    background-color: #212121;
+    background-image: url(img/price/bg-dark.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-contacts a :hover,
+.footer-contacts a :focus {
+    text-decoration: none;
+}
+.footer-social {
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
+.social-button {
+    color: #ffffff;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+/* Grid style*/
+.main-header {
+    height: 73px;
+    width: 1200px;
+}
+.main-navigation {
+    display: flex;
+}
+
+.main-header-logo {
+    margin-left: 150px;
+    margin-right: 40px;
+    margin-top: 24px;
+}
+.main-navigation-wrapper {
+    width: 750px;
+    height: 73px;
+}
+.container {
+    width: 940px;
+    padding: 0 10px;
+    margin-right: 150px;
+}
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation {
+    width: 500px;
+    height: 73px;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.user-navigation {
+    width: 140px;
+    height: 73px;
+    margin-right: 150px; 
+    margin-top: 30px;
+}
+.page-navigation {
+    width: 1200px;
+    height: 293px;
+}
+.page-navigation-title {
+    margin-left: 130px;
+    margin-top: 56px;
+}
+.navigation-list-wrapper {
+    width: 280px;
+    height: 13px;
+}
+.navigation-list {
+    margin-left: 130px;
+    margin-top: 28px;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+.slogan {
+    margin-top: 59px;
+    align-items: center;
+    margin-bottom: 73px;    
+}
+
+    
