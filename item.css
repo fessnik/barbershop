@@ -76,6 +76,9 @@ a {
 .navigation-list {
     list-style: url(img/item/list-style.png);
 }
+.navigation-list li:first-child {
+    list-style: none;
+}
 .navigation-list a {
     color: black;
 }
